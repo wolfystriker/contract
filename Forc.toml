@@ -1,0 +1,9 @@
+[project]
+name = "contract"
+authors = ["Ws"]
+entry = "main.sw"
+license = "Apache-2.0"
+
+[dependencies]
+wyvern_exchange_lib = { path = "lib" }
+nftlib = { path = "nftlib" }

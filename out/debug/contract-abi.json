@@ -1,0 +1,66 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "contract_address",
+        "type": "b256",
+        "components": null
+      }
+    ],
+    "name": "init",
+    "outputs": [
+      {
+        "name": "",
+        "type": "()",
+        "components": []
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "token_id",
+        "type": "u64",
+        "components": null
+      },
+      {
+        "name": "fee",
+        "type": "u64",
+        "components": null
+      },
+      {
+        "name": "price",
+        "type": "u64",
+        "components": null
+      }
+    ],
+    "name": "set_transfer_data",
+    "outputs": [
+      {
+        "name": "",
+        "type": "()",
+        "components": []
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "token_id",
+        "type": "u64",
+        "components": null
+      }
+    ],
+    "name": "transfer_token",
+    "outputs": [
+      {
+        "name": "",
+        "type": "()",
+        "components": []
+      }
+    ]
+  }
+]

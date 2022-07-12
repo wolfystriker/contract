@@ -1,0 +1,7 @@
+[project]
+name = "nftlib"
+authors = ["Ws"]
+entry = "nftlib.sw"
+license = "Apache-2.0"
+
+[dependencies]

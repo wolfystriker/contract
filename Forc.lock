@@ -1,0 +1,28 @@
+[[package]]
+name = 'contract'
+source = 'root'
+dependencies = [
+    'nftlib',
+    'std',
+    'wyvern_exchange_lib',
+]
+
+[[package]]
+name = 'core'
+source = 'path+from-root-56CBD671DED0A584'
+dependencies = []
+
+[[package]]
+name = 'nftlib'
+source = 'path+from-root-67606CE75F849616'
+dependencies = ['std']
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/fuellabs/sway?tag=v0.18.1#3bd8eaf4a0f11a3009c9421100cc06c2e897b6c2'
+dependencies = ['core']
+
+[[package]]
+name = 'wyvern_exchange_lib'
+source = 'path+from-root-67606CE75F849616'
+dependencies = ['std']
